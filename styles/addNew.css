@@ -1,0 +1,100 @@
+.above-full{
+    display: none;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: rgba(0,0,0,0.7);
+
+
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+
+
+
+}
+
+.backMain{
+    margin: 10px 10px;
+    color: white;
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    width:70px;
+    height: 30px;
+
+    font-size: 20px;
+}
+
+.forms-container{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    /*background: red;*/
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.hospital-add{
+    display: none;
+
+    margin: calc( (100vh - 640px) /2 ) auto;
+    width: 450px;
+    height: 640px;
+
+    background: white;
+    border-radius: 10px;
+
+}
+.sub-button{
+    width: 100%;
+    height: 40px;
+    font-size: 22px;
+
+    margin-top: 30px;
+}
+.textfield{
+    width: 98%;
+    height: 30px;
+
+    font-size: 20px;
+    margin-top: 0px;;
+
+}
+.label1{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: block;
+    text-align: left;
+}
+/*      */
+
+
+.Surgeon-add{
+    display: none;
+
+    margin: calc( (100vh - 640px) /2 ) auto;
+    width: 450px;
+
+
+    height: 640px;
+    background: white;
+    border-radius: 10px;
+}
+
+.doctor-add{
+    display: none;
+
+    margin: calc( (100vh - 640px) /2 ) auto;
+    width: 500px;
+    height: 640px;
+
+    border-radius: 10px;
+
+}

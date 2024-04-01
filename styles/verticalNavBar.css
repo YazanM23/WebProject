@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bodyContainer{
+
+position: absolute;
+    left: 20px;
+    top:0px;
+    width: 300px;
+    height: 20px;
+    min-height: 100vh;
+overflow: hidden;
+    justify-content: center;
+}
+.container3{
+
+    top: 150px;
+
+    height: 70px;
+    width: 70px;
+
+    background-color:#fff;
+    border-radius: 50px;
+
+    position: relative;
+    transition: 0.4s ease;
+}
+.toggleBox{
+
+    position: relative;
+
+    display: block;
+
+    height: 70px;
+margin-top: 70%;
+    width: 70px;
+    border-radius: 50px;
+   }
+.icon{
+    position: absolute;
+
+    height: 4px;
+
+    width: 35px;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform:translate(-50%, -50%);
+
+    background-color: #161d2c;
+
+    border-radius: 50px;
+}
+
+.icon::before , .icon::after{
+    position: absolute;
+
+    content:'';
+
+    height: 4px;
+
+    width: 35px;
+
+
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #161d2c;
+
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.icon::before{
+    top:12px;
+}
+.icon::after{
+    bottom:8px;
+}
+.toggleBox.active .icon {
+width: 0;
+}
+.toggleBox.active .icon::before{
+    width: 40px;
+    transform:translate(-25px,4px) rotate(45deg);
+    transform-origin: right;
+
+}
+
+.toggleBox.active .icon::after{
+    width: 40px;
+    transform:translate(-25px,-6px) rotate(-45deg);
+    transform-origin: right;
+
+}
+
+ .container3.active{
+     height: 300px;
+ }
+
+
+ li{
+     list-style: none;
+ }
+ li a{
+
+     color:#161d2c;
+ }
+ li a i{
+     position: relative;
+
+     display: block;
+
+     font-size: 18px;
+
+     padding: 25px 0;
+
+     width: 100%;
+
+     text-align: center;
+     transform: scale(0);
+ }
+ li a span{
+position: absolute;
+
+     color:#fff;
+
+     margin: 22px 0;
+
+     font-weight: 500;
+
+     letter-spacing: 2px;
+
+ }
+.navItems{
+    width: 100%;
+visibility: hidden;
+}
+.container3.active .navItems{
+    visibility: visible;
+}
+.container3.active .navItems li a i{
+    transform: scale(1);
+    transition: 0.4s ease;
+    transition-delay: calc(0.08s * var(--i));
+}
+.container3.active .navItems li:hover a i {
+    transition: 0.2s ease;
+
+    color: #26D07C;
+
+}
+.container3.active .navItems li a span{
+    transform: translate(15px);
+    transition: 0.4s ease;
+    transition-delay: calc(0.08s * var(--g));
+}
+.container3.active .navItems li:hover a span {
+    transform: translate(30px);
+    transition: 0.2s ease;
+
+    color: darkblue;
+}
+
+
+li a i::after{
+
+position: absolute;
+
+content:'';
+
+top: 50%;
+
+right: 0;
+
+width: 0px;
+
+height: 50%;
+
+transform: translateY(-50%) ;
+    background-color:#26D07C;
+
+    border-radius: 8px 0 0 8px;
+}
+li:hover a i::after{
+
+    width: 8px;
+
+    transition: 0.3s;
+     }
+

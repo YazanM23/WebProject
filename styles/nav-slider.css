@@ -1,0 +1,128 @@
+.nav-slider{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 280px;
+    position: relative;
+
+}
+.full-container{
+
+}
+
+
+.in-container-slider{
+    display: inline-block;
+    width: 80%;
+    /*background: linear-gradient(160deg,#4895df 20%,#59caa8);*/
+    min-height: 250px;
+    background: #4895df;
+    height: 200px;
+    font-size: 10px;
+
+    transform: rotateY(25deg);
+    position: absolute;
+    box-shadow: 1px 1px 2px white;
+
+    border-radius: 10px;
+    border-left: white 1px solid;
+}
+.tables-s{
+    width: 100%;
+    text-align: center;
+    color:white;
+    border: 1px solid white;
+
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+tr{
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
+
+    min-height: 15px;
+    height: 15px;
+}
+
+.table-s1{
+    z-index: 1;
+
+    top: 10px;
+    left:1.4%;
+}
+.table-s2{
+    z-index: 2;
+
+    top: 10px;
+    left: 4.2%;
+}
+.table-s3{
+    z-index: 3;
+
+    top: 10px;
+    left: 7%;
+}
+.table-s4{
+    z-index: 4;
+
+    top: 10px;
+    left: 9.8%;
+}
+/*.table-s4:hover{*/
+/*    z-index: 4;*/
+
+/*    top: -20px;*/
+/*    left: 9.8%;*/
+/*}*/
+/*.table-s3:hover{*/
+/*    z-index: 4;*/
+
+/*    top: -20px;*/
+/*    left: 7;*/
+/*}*/
+
+
+.table-s5{
+    z-index: 5;
+
+    top: 10px;
+    left: 12.6%;
+}
+.table-s6{
+    z-index: 7;
+
+    top: 10px;
+    left: 15.4%;
+}
+.table-s7{
+    z-index: 7;
+
+    top: 10px;
+    left:18.2% ;
+}
+
+/*in animation*/
+.in-container-slider:hover{
+    animation: slide;
+    animation-duration: 0.25s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: initial;
+}
+
+@Keyframes slide{
+    from{
+        top: 10px;
+    }
+    to{
+        top: -40px;
+    }
+
+
+}
+
+
+
+/*end animation*/

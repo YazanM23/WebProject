@@ -1,0 +1,283 @@
+#MedicalDiv2,#DivChoose2{
+    display: none;
+}
+
+#PersonalR{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
+
+
+}
+#PersonalDiv2{
+    /*  max-width: 700px;
+      width: 100%;
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 5px;
+      display: flex;
+      flex-wrap: wrap;*/
+
+}
+#MedicalDiv2{
+    display: none;
+}
+#DivChoose2{
+    display: none;
+}
+#interR1{
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+
+}/*
+#Reg{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+#Reg::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+
+}
+.inputbox{
+    width: calc(100% / 2 - 20px);
+}*/
+.container{
+    /*max-width: 700px;*/
+    width: 96%;
+    /*background: #fff;*/
+    background: #fff;
+    border-radius: 5px;
+    margin: 3% auto;
+    overflow-y: scroll;
+    display: block;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+
+form #PersonalDiv2 .inputbox{
+
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 7%;
+}
+
+
+#PersonalDiv2 .inputbox input{
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+#PersonalDiv2 form{
+    /*margin-right: 50%;*/
+}
+.container form #PersonalDiv2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 700px;
+    position: relative;
+
+}
+#PersonalDiv2 .inputbox .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#PersonalDiv2 .inputbox input:focus,
+#PersonalDiv2 .inputbox input:valid{
+    border-color: #59caa8;
+}
+form .gender-details .gender-title{ font-size: 20px; font-weight: 500;}
+form .gender-details .category{
+
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+
+}
+#Next2{
+    height: 37px;
+    width: 97%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+#Next2:hover{
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+#PIB2{
+    background: rgba(72, 150, 223,0.4);
+
+}
+/*
+@media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    form #PersonalDiv .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender-details .category {
+        width: 100%;
+    }
+    .container form #PersonalDiv{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar {
+        width: 0;
+    }
+    }*/
+#NextToAccept2{
+    height: 37px;
+    width: 15%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+#NextToAccept2:hover{
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+#back2{
+    height: 37px;
+    width: 15%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+#back2:hover{
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+
+
+
+#accept2{
+    height: 37px;
+    width: 80px;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+#accept2:hover{
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+#BTM2{
+    height: 37px;
+    width: 70px;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+#BTM2:hover{
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+
+
+form #DivChoose2 .inputbox{
+
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+
+
+#DivChoose2 .inputbox input{
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.container form #DivChoose2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+#DivChoose2 .inputbox .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#DivChoose2 .inputbox input:focus,
+#DivChoose2 .inputbox input:valid{
+    border-color: #59caa8;
+}
+#divPassword,#divUser,#divAccept{
+    margin-left: 70px;
+}
+#CButtonDiv2{
+    margin-top: 50px;
+}
+#CButtonDiv2,#CButtonDiv3{
+    margin-left: 140px;
+}

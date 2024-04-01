@@ -1,0 +1,190 @@
+#Personal{
+    position: relative;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.FN{
+    margin-left: 97px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+#FN{
+    margin-left: 22px;
+}
+.SN{
+
+    margin-left: 90px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+font-weight: lighter;
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+.TN{
+    margin-left: 94px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#TN{
+    margin-left:19px ;
+}
+.LN{
+    margin-left: 97px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#LN{
+     margin-left: 24px;
+ }
+.IDP{
+    margin-left: 135px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#IDP{
+    margin-left: 60px;
+
+}
+.BD{
+    margin-left: 103px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#BD{
+    margin-left: 30px;
+}
+.ADC{
+    margin-left: 110px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#ADC{
+    margin-left: 30px;
+
+}
+#ADS{
+    margin-left: 219px;
+}
+.Gender{
+    margin-left: 115px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#GM{
+    margin-left: 13px;
+}
+#GF{
+    margin-left: 207px;
+}
+#CI{
+    margin-left: 37px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+.Email{
+    margin-left: 153px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+.PN{
+    margin-left: 72px;
+    font-size: 24px;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+}
+#Next{
+    margin-left: 400px;
+}
+#MedicalDiv, #MedicalDiv2{
+display: none;
+}
+#innerDivChoose{
+width: 100%;
+    height: 70%;
+    position: absolute;
+    display: none;
+
+}
+.Cards{
+    display: inline-block;
+    margin-top:10px;
+    margin-left:10px ;
+    float:left;
+    width: 40%;
+    height: 200px;
+    position: relative;
+    background:black ;
+}
+#DivChoose , #DivChoose2{
+    display: none;
+}
+#PIB{
+    background: rgba(72, 150, 223,0.4);
+
+}

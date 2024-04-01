@@ -1,0 +1,195 @@
+.hospital-add.inputbox{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.inputbox input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.inputbox input:focus,
+.inputbox input:valid{
+    border-color: #59caa8;
+}
+.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+   color:black ;
+}
+.hospital-add{
+    padding: 0;
+
+    box-sizing: border-box;
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+#hos-add-btn,#doc-add-btn,#newDoc{
+    height: 37px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg,#4895df 5%,#59caa8);
+}
+#hos-add-btn,#doc-add-btn,#newDoc:hover{
+    background: linear-gradient(-135deg,#4895df 5%,#59caa8);
+
+}
+
+.Surgeon-add.inputbox{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.Surgeon-add{
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    height: 670px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+
+.container2{
+    max-width: 700px;
+    width: 450px;
+    height: 615px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    margin:  10px auto ;
+}
+.container2 form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+
+}
+.doctor-add{
+    /*padding-top: 0.8%;*/
+    box-sizing: border-box;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+    height: 640px;
+
+}
+ .container2 .inputbox{
+
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+form .gender-details .gender-title{ font-size: 20px; font-weight: 500;}
+form .gender-details .category{
+
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+
+}
+.doctor-add .inputbox{
+    margin-top: -5px;
+}
+.serg-cont{
+    padding-left: 0.4%;
+    padding-top: 2.5%;
+    box-sizing: border-box;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+    height: 640px;
+}
+.whiteCont{
+    max-width: 700px;
+    width: 420px;
+    height: 615px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.whiteHos{
+    max-width: 700px;
+    width: 420px;
+    height: 615px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+.hos-cont{
+    padding-left: 0.4%;
+    padding-top: 2.5%;
+    box-sizing: border-box;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+    height: 640px;
+}
+
+#hos-add-btn{
+    height: 37px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+#hos-add-btn:hover{
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}
+
+#doc-add-btn{
+    height: 37px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: linear-gradient(-135deg,#4895df 20%,#59caa8);
+}
+#doc-add-btn:hover{
+    background: linear-gradient(135deg,#4895df 20%,#59caa8);
+}

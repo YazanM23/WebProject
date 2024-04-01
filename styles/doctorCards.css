@@ -1,0 +1,88 @@
+.line-div{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: red;
+
+
+}
+.first-line-card{
+    display: inline-block;
+    width: 22%;
+    height: 80px;
+    background:rgba(72, 149, 223,0.5);
+    margin: 0;
+    margin-left: 3%;
+color:white;
+    border: 1px;
+    border-radius: 10px;
+
+}
+.first-line-table{
+    min-height: 100%;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+
+
+}
+.first-card{
+    margin-left: 0.7%;
+}
+
+@media only screen and (max-width: 1050px){
+
+    .line-div{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+    }
+    .first-line-card{
+        width: 45%;
+
+    }
+    .first-line-card-mid{
+        margin-left: 0px;
+        margin-top: 15px;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 650px){
+
+
+    .first-line-card{
+        width: 90%;
+        display: block;
+
+        margin: 15px auto;
+
+    }
+    .first-line-card-mid{
+
+    }
+
+    /*2nd line responsiveness*/
+    .line2-div{
+
+    }
+    .second-line-card{
+        width: 45%;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+    .second-line-card-small{
+        margin-left: 0px;
+
+
+    }
+
+}

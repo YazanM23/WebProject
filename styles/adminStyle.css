@@ -1,0 +1,362 @@
+h2{
+    color: rgba(240,240,240,0.9);
+}
+h1{
+    color: rgba(240,240,240,0.9);
+}
+body{
+
+background-image: url("../loginCSS/bg-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "comfortaa",Arial,sans-serif;
+    color: white;
+}
+.full-container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+
+
+
+
+}
+.updateB{
+    height: 20px;
+    width: 40%;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+.deleteB{
+    height: 20px;
+    width: 40%;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 50px;
+    padding-right: 50px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*box-shadow: inset 0 0 5px grey;*/
+    background: rgba(0,0,0,0);
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #505050;
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #686868;
+}
+
+.top-dash{
+margin-left: 1%;
+
+    color: white;
+    font-size: 48px;
+    font-family: "comfortaa",Arial,sans-serif;
+
+}
+.first-line-table{
+    min-height: 100%;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/*first line*/
+.line-div{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-family: "comfortaa",Arial,sans-serif;
+
+}
+.first-line-card{
+    display: inline-block;
+    width: 22%;
+    height: 80px;
+    background:rgba(72, 149, 223,0.5);
+    margin: 0;
+    margin-left: 3.2%;
+    color: rgba(38, 208, 124,0.4);
+    border: 1px;
+    border-radius: 10px;
+
+}
+.first-card{
+    margin-left: 0px;
+}
+
+/*second line*/
+.line2-div{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.second-line-card{
+    display: inline-block;
+    width: 15.3%;
+    height: 200px;
+
+    background:  rgba(38, 208, 124,0.5);
+    margin: 0;
+    margin-left: 1%;
+
+    border: 1px ;
+    border-radius: 10px;
+
+
+}
+.first-card2{
+    margin-left: 0px;
+}
+.backMain{
+position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+
+
+
+
+
+
+
+/*first line responsiveness*/
+@media only screen and (max-width: 1050px){
+
+    .line-div{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color:white;
+        font-family: "comfortaa",serif,sans-serif;
+
+    }
+    .first-line-card{
+        width: 45%;
+
+    }
+    .first-line-card-mid{
+        margin-left: 0px;
+        margin-top: 15px;
+
+    }
+
+    /*2nd line responsiveness*/
+    .line2-div{
+
+    }
+    .second-line-card{
+        width: 30%;
+        margin-top: 10px;
+
+    }
+    .second-line-card-mid{
+        margin-left: auto;
+
+    }
+    .first-card2{
+
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+
+
+    .first-line-card{
+        width: 90%;
+        display: block;
+
+        margin: 15px auto;
+
+    }
+    .first-line-card-mid{
+
+    }
+
+    /*2nd line responsiveness*/
+    .line2-div{
+
+    }
+    .second-line-card{
+        width: 45%;
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+    .second-line-card-small{
+        margin-left: 0px;
+
+    }
+
+}
+
+
+.navBar{
+    width: 90%;
+    margin-top: 40px;
+    /*background: yellowgreen;*/
+
+
+}
+.navList{
+    list-style: none;
+    display: inline-block;
+margin-top: 2.7%;
+    margin-right: -7%;
+    float: right;
+
+}
+.menu-close{
+    display: none;
+}
+@media only screen and (max-width: 980px){
+    .navList{
+        list-style: none;
+        display: inline-block;
+
+        float: right;
+    }
+}
+@media only screen and (max-width: 976px){
+    #navList1{
+        list-style: none;
+
+        display: none;
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        padding-left: 9.5%;
+
+
+
+    }
+    .menu-close{
+        display: inline-block;
+        float: right;
+        color: white;
+    }
+
+}
+.navItem{
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.navLink{
+    color: rgba(255,255,255,0.7);
+
+
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    padding: 0px 0px 2px;
+
+    font-style: normal;
+    font-size:19px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+
+
+
+.navLink:hover{
+    color: rgba(255,255,255,1);
+}
+
+.navLink{
+    display: inline-block;
+    position: relative;
+
+}
+
+.navLink::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navLink:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+#titleD{
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    padding: 17px 15px 17px 0px;
+
+    font-style: normal;
+    font-size:50px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+    display: inline-block;
+
+}
+
+#Organs-admin{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px;
+    padding-left: 15px;
+    margin-top: 3px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,98 @@
+#inbox{
+    margin-top: 20px;
+    width: 37%;
+    height: 35px;
+    font-size: 18px;
+
+    background: #4895df;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+#sendbtn{
+    height: 28px;
+    width: 22%;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+#sendbtn:hover{
+
+background:#59caa8 ;
+    color:white;
+
+
+}
+.overall{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.4);
+    z-index: 5;
+    top:0;
+    left:0;
+    padding-top: 30px;
+    /*background: url("../BackGrounds/black.png") ;*/
+    display: none;
+
+
+}
+.inbox-container{
+    /*background: green;*/
+    width: 50%;
+    margin: 0 auto;
+    overflow-y: scroll;
+    max-height: 90%;
+}
+.in-inboxcontainer{
+    /*background: white;*/
+}
+.message-bdair{
+    font-family: comfortaa, serif;
+    background:#4895df ;
+    border-radius: 20px;
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+    box-sizing: content-box;
+    font-size: 18px;
+}
+.answer-bdair{
+    font-family: comfortaa, serif;
+    background:#59caa8 ;
+    border-radius: 20px;
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+    box-sizing: content-box;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px){
+
+
+
+    .message-bdair{
+
+        width: 60%;
+
+    }
+    .answer-bdair{
+
+        width: 60%;
+
+    }
+    .inbox-container{
+
+        width: 80%;
+    }
+
+}
